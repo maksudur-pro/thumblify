@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
 
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/login")}
           className="hidden md:block px-6 py-2.5 bg-pink-600 hover:bg-pink-700 active:scale-95 transition-all rounded-full">
           Get Started
         </button>
