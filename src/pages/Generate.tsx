@@ -61,6 +61,7 @@ const Generate = () => {
                     </div>
                   </div>
                   {/* aspectratio selector */}
+
                   <AspectratioSelector
                     value={aspectRatio}
                     onChange={setAcpectRatio}
